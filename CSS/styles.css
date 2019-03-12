@@ -1,0 +1,410 @@
+body{
+    font-family: Arial sans-serif;
+    margin: 0;
+}
+
+/* ------------------ Header ----------------- */
+.header{
+    background-image: url("../img/purpleflower.jpg");
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    text-align:center;
+}
+
+/* ------------------ nav----------------- */
+.nav-header{
+    background-color:#280323 ;
+    padding: 10px;
+}
+.nav-header a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-header a:hover{
+    background-color: #8b647a;
+}
+.nav-header i{
+    color:darkorange;
+}
+
+/* ------------------  Section ----------------- */
+form{
+    border: 10px solid #280323;
+}
+.zoom{
+    text-align: center;
+
+
+}
+.section-article{
+    border: 2px solid black;
+    width:1480px;
+    height: 1000px;
+    display: inline-grid;
+    margin: 10px;
+   border-radius: 10px;
+    transition: all 1s;
+    background-image: url("../img/roseses.jpg");
+}
+.zoom h2{
+    background-image: url("../img/flower.jpg");
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+.zoom img{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 1200px;
+    height: 400px;
+    margin-top: 10px;
+}
+.zoom img:hover
+{
+    background-color: #280323;
+    transform: scale(1.1,1.1);
+}
+.zoom p{
+padding: 10px;
+    font-size: 18px;
+    color:#00c851;
+}
+/* ------------------  footer----------------- */
+footer{
+    background-image: url("../img/purpleflower.jpg");
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+footer a{
+    color: yellow;
+}
+/* ------------------  about ----------------- */
+
+/* ------------------  Section ----------------- */
+.section-article1 {
+    background-image: url("../img/roseses.jpg");
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: black;
+    width: 1400px;
+    margin-left: 20px;
+}
+
+.zoom1 h2 {
+    background-image: url("../img/blueimage.jpg");
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    color: white;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.section-article1:hover{
+    box-shadow:0 0 10px blue;
+    transform: scale(1.1,1.1);
+}
+.section-article1 p{
+    color: white;
+    text-align: center;
+}
+
+/* ------------------  gallery----------------- */
+
+/* ------------------  Section ----------------- */
+.gallery-section {
+    background-image: url("../img/roseses.jpg");
+
+}
+.gallery-article{
+    display: inline-grid;
+    margin-left: 40px;
+
+}
+.gallery-article img:hover
+{
+    background-color: #280323;
+    transform: scale(0.9,0.9);
+}
+
+.gallery-article iframe:hover
+{
+    background-color: #280323;
+    transform: scale(0.9,0.9);
+}
+.img-1{
+    border: 5px solid black;
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-image: url("../img/nature2.jpg");
+
+}
+.gallery-article img{
+
+    width: 391.99px;
+    height: 410px;
+    box-shadow: 0 0 10px #00c851;
+      margin-left: 5px;
+    margin-top: 2px;
+    margin-right: 5px;
+
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.gallery-article iframe{
+    width: 391.99px;
+    height: 410px;
+    box-shadow: 0 0 10px #00c851;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-right: 5px;
+
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.img-1 p{
+    padding: 10px;
+     box-shadow: 0 0 10px orangered;
+    text-align: center;
+    color: white;
+    height: 45px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* ------------------  brothers----------------- */
+
+
+.img-2 {
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-image: url("../img/nature2.jpg");
+}
+
+.brother-section {
+    background-image: url("../img/roseses.jpg");
+
+}
+.brother-article{
+    display: inline-grid;
+    margin-left: 40px;
+
+}
+
+.brother-article img,iframe{
+
+    width: 391.99px;
+    height: 320px;
+    box-shadow: 0 0 10px #00c851;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.brother-article img:hover
+{
+    background-color: #280323;
+    transform: scale(0.9,0.9);
+}
+
+.brother-article p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: crimson;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/* ------------------  sisters----------------- */
+
+.img-3 {
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-image: url("../img/nature2.jpg");
+}
+
+.sisters-section {
+    background-image: url("../img/roseses.jpg");
+
+}
+.sisters-article{
+    display: inline-grid;
+    margin-left: 40px;
+
+}
+
+.sisters-article img,iframe{
+
+    width: 391.99px;
+    height: 320px;
+    box-shadow: 0 0 10px #00c851;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.sisters-article img:hover
+{
+    background-color: #280323;
+    transform: scale(0.9,0.9);
+}
+.sisters-article p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: crimson;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/* ------------------  friends----------------- */
+
+.img-4 {
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-image: url("../img/nature2.jpg");
+}
+
+.friend-section {
+    background-image: url("../img/roseses.jpg");
+
+}
+.friend-article{
+    display: inline-grid;
+    margin-left: 40px;
+
+}
+
+.friend-article img,iframe{
+
+    width: 391.99px;
+    height: 320px;
+    box-shadow: 0 0 10px #00c851;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.friend-article img:hover
+{
+    background-color: #280323;
+    transform: scale(0.9,0.9);
+}
+.friend-article p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: crimson;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+/* ------------------  ContactMe----------------- */
+
+.contact-section{
+    background-image: url("../img/blueimage.jpg");
+    padding: 10px;
+
+}
+.contact-article{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+.contact-form{
+    box-shadow: 0 0 10px #382828;
+
+}
+.contact-article h2{
+    color: white;
+    margin-top: 15px;
+}
+
+.text-box{
+    font-size: 18px;
+    text-align: center;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 200px;
+    margin: 5px;
+    border-bottom: 3px solid #778168;
+}
+
+.text-box:focus{
+    border-bottom: 3px solid crimson;
+}
+
+textarea{
+    border: 3px solid crimson;
+    outline: none;
+    background: transparent;
+    margin: 5px;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+}
+
+textarea:focus{
+    border: 3px solid crimson;
+}
+
+
+.submit-button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    margin: 10px;
+}
